@@ -1,7 +1,5 @@
 <div align="center">
 
-# Alexander
-
 ### Full-Stack Developer
 
 Full-stack web development across responsive interfaces, APIs, application architecture, and data layers.
