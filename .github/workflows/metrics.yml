@@ -21,7 +21,15 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: ThisIsSoftwaredevv
           filename: github-metrics.svg
-          base: header, activity, community, repositories
+          base: header, activity, repositories
           config_timezone: Europe/Kiev
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_sections: most-used
+
+          plugin_habits: yes
+          plugin_habits_from: 200
